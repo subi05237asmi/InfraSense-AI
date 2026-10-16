@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local database and user reports
+infrasense.db
+infrasense.db-*
+uploads/
+
+# Generated AI analysis files
+road_analysis_results/
+opencv_analysis_results/
+analysis_results_data/
+
+# Editor settings
+.vscode/
