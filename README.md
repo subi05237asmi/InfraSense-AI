@@ -51,3 +51,7 @@ AI-powered road damage detection and reporting dashboard built with Python and F
 ## Author
 
 GitHub: [@subi05237asmi](https://github.com/subi05237asmi)
+
+## Dashboard Preview
+
+![InfraSense AI Dashboard](dashboard.png)
