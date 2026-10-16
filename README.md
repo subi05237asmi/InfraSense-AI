@@ -61,3 +61,19 @@ GitHub: [@subi05237asmi](https://github.com/subi05237asmi)
 The YOLO model analyzes road images to identify potential damage, including cracks and potholes.
 
 ![YOLO Road Damage Detection](yolo-detection.jpg)
+
+## System Workflow
+
+1. **Report Submission:** A user enters the location, selects an issue category, and uploads a road photo.
+2. **AI Detection:** The YOLO model analyzes the image for potential road damage.
+3. **Image Processing:** OpenCV identifies additional candidate regions for inspection.
+4. **Report Management:** Flask handles report submission, search, filtering, and status updates.
+5. **Data Storage:** SQLite stores report information locally.
+6. **Dashboard:** The dashboard displays report statistics, priorities, recurring issues, and analysis results.
+
+## Limitations
+
+- AI predictions are not guaranteed to be accurate and should be reviewed by a human.
+- OpenCV candidate regions are image-processing results, not confirmed damage.
+- The SQLite database and uploaded photos are stored locally by default.
+- The application currently runs locally and is not automatically a publicly hosted website.
