@@ -60,4 +60,4 @@ GitHub: [@subi05237asmi](https://github.com/subi05237asmi)
 
 The YOLO model analyzes road images to identify potential damage, including cracks and potholes.
 
-![YOLO Road Damage Detection](yolo-detection.png)
+![YOLO Road Damage Detection](yolo-detection.jpg)
