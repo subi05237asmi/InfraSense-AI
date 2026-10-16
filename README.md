@@ -55,3 +55,9 @@ GitHub: [@subi05237asmi](https://github.com/subi05237asmi)
 ## Dashboard Preview
 
 ![InfraSense AI Dashboard](dashboard.png)
+
+## AI Road Damage Detection
+
+The YOLO model analyzes road images to identify potential damage, including cracks and potholes.
+
+![YOLO Road Damage Detection](yolo-detection.png)
