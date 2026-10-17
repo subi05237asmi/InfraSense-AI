@@ -48,8 +48,8 @@ def analyze_road_photo(photo_path):
     results = model.predict(
         source=str(photo_path),
         device="cpu",
-        imgsz=640,
-        conf=0.10,
+        imgsz=1024,
+        conf=0.01,
         verbose=False,
         save=False,
     )
